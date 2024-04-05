@@ -1,0 +1,28 @@
+.tittle {
+    color: white;
+    margin-top: 350px;
+    margin-left: 250px;
+}
+#btn {
+    box-shadow: 0 0 5px 0 #000;
+    margin-left: -3px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 21px;
+    border-radius: 50px;
+    background-color: var(--cor-primaria);
+    border: none;
+    font-weight: 600;
+    bottom: 300px;
+}
+#btn:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+.imagem {
+    margin-left: 750px;
+    margin-top: -400px;
+}
+#ima {
+    width: 500px;
+}

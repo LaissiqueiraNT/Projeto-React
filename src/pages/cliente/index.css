@@ -1,0 +1,29 @@
+
+.titulo {
+    margin-top: 50px;
+    color: white;
+}
+.modal-dialog {
+    max-width: 650px;
+}
+#btn-adicionar {
+    background-color: var(--cor-primaria);
+    border: 3px;
+    color: #000;
+    font-weight: 600;
+}
+#btn-adicionar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+.btn {
+    color: var(--cor-primaria);
+    background-color: rgb(31, 31, 31);
+    border: 6px;
+}
+.btn:hover {
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    background-color: rgb(15, 15, 15);
+    border: 6px;
+}
