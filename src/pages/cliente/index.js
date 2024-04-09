@@ -2,7 +2,7 @@ import "./index.css";
 import clienteService from "../../services/cliente-service";
 import Swal from "sweetalert2";
 import Cliente from "../../models/Cliente";
-// HOOKs
+
 import { useState, useEffect } from 'react'
 
 

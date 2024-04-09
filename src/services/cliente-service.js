@@ -1,6 +1,5 @@
 import service from './service';
 
-// C
 function adicionar(cliente){
     return new Promise((resolve, reject) => {
         service.post('/clientes', cliente)
@@ -9,7 +8,6 @@ function adicionar(cliente){
     });
 }
 
-// R
 function obter(){
     return new Promise((resolve, reject) => {
         service.get('/clientes')
@@ -18,7 +16,6 @@ function obter(){
     });
 }
 
-// U
 function atualizar(cliente){
     return new Promise((resolve, reject) => {
         service.put(`/clientes/${cliente.id}`, cliente)
@@ -27,7 +24,6 @@ function atualizar(cliente){
     });
 }
 
-// D
 function excluir(id){
     return new Promise((resolve, reject) => {
         service.delete(`/clientes/${id}`)
