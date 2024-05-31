@@ -25,4 +25,6 @@
 }
 #ima {
     width: 500px;
+    pointer-events: none;
+    user-select: none;
 }
